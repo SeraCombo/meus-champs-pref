@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto LoL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/assets/logo.png" alt="logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione seu Campeão </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ahri" data-name="Ahri" data-description="A Raposa de Nove Caudas 
+                As emoções humanas podem ser mais voláteis até do que a magia mais poderosa.">
+                    <img src="./src/assets/ahri.png" alt="Ahri">
+                </li>
+                <li class="personagem" id="annie" data-name="Annie" data-description="A Criança Sombria
+                Você não pode vim para o chá do Tibbers.">
+                    <img src="./src/assets/annie.png" alt="Annie">
+                </li>
+                <li class="personagem" id="belvet" data-name="Bel'Vet" data-description="A Imperatriz do Vazio
+                Este mundo não será esquecido. Eu o substituirei, como cria que devora criador.">
+                    <img src="./src/assets/belvet.jpg" alt="Bel'Vet">
+                </li>
+                <li class="personagem" id="katarina" data-name="Katarina" data-description="A Lamina Sinistra
+                Nunca questiones a minha lealdade. Nunca saberás o que eu suporto por ela.">
+                    <img src="./src/assets/katarina.png" alt="Katarina">
+                </li>
+                <li class="personagem" id="lux" data-name="Lux" data-description="A Dama da Luz
+                É a luz em mim que me faz diferente, e não a mostro com cuidado.">
+                    <img src="./src/assets/lux.png" alt="Lux">
+                </li>
+                <li class="personagem" id="seraphine" data-name="Seraphine" data-description="A Cantora Sonhadora
+                Oi gente, eu sou a Seraphine e vocês são lindos!">
+                    <img src="./src/assets/seraphine.png" alt="Seraphine">
+                </li>
+                <li class="personagem" id="sona" data-name="Sona" data-description="A Mestra das Cordas
+                ...Consegue ouvir a minha voz? Sou a Sona, agora sua mente está aberta pra mim...">
+                    <img src="./src/assets/sona.png" alt="Sona">
+                </li>
+                <li class="personagem" id="xayah" data-name="Xayah" data-description="A Rebelde 
+                Já alguma vez foste esfaqueado por uma PlumaAdaga?">
+                    <img src="./src/assets/xayah.png" alt="Xayah">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/assets/full-ahri.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ahri</h2>
+                <p class="descricao-personagem" id="descricao-personagem">A Raposa de Nove Caudas <br>
+                    "As emoções humanas podem ser mais voláteis até do que a magia mais poderosa."</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
